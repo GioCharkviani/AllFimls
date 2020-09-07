@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AllFilms</title>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header class="main-header">
+
+		<nav class="nav main-nav">
+			<h1 class="main-title">AllFilms</h1>
+			<ul class="nav-ul">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html">Films</a></li>
+				<li><a href="index.html">Series</a></li>
+				<li><a href="index.html">Animes</a></li>
+				<li><a class="for-registration" href="registration.html">Registration</a></li>
+			</ul>
+			<button class="nav-toggle">
+				<i class="fa fa-ellipsis-h nav-bar fa-2x"></i>
+				<i class="fa fa-ellipsis-v nav-bar hide fa-2x"></i>
+			</button>
+		</nav>
+
+		<div  class="btn-header-main">
+			<div class="inner-btn-header">
+				<div class="searcher-div">
+					<input class="btn-input btn-header-input" placeholder="Search a film.." type="search" id="site-search" name="q" aria-label="Search through site content">
+					<button class="btn-search btn-header-search" role="button"><i class="fa fa-search"></i></button>
+				</div>
+				<div class="searched-film">
+					<div id="searched-film-inner">
+	
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<section id="main-container">
+		<div class="container content-section">
+			<h2 class="section-header">Last Added</h2>
+			<div class="pull-right">
+				<i class="fa fa-angle-left gray-arrow for-date-left fa-2x"></i> 
+				<i class="fa fa-angle-right for-date-right fa-2x"></i>
+			</div>
+			<div class="items">
+				<div class="item1">
+					<h4 class="item1-title"></h4>
+					<img class="item1-image st-img"  src="" height="200" width="180">
+
+					<div>
+						<span class="item1-year"></span>
+					</div>
+				</div>
+				<div  class="item1">
+					<h4 class="item1-title"></h4>
+					<img class="item1-image st-img" src="" height="200" width="180">
+					<div>
+						<span class="item1-year"></span>
+					</div>
+				</div>
+				<div  class="item1">
+					<h4 class="item1-title"></h4>
+					<img class="item1-image st-img" src="" height="200" width="180">
+					<div>
+						<span class="item1-year"></span>
+					</div>
+				</div>
+				<div  class="item1">
+					<h4 class="item1-title"></h4>
+					<img class="item1-image st-img" src="" height="200" width="180">
+					<div>
+						<span class="item1-year"></span>
+					</div>
+				</div>
+				<div  class="item1">
+					<h4 class="item1-title"></h4>
+					<img class="item1-image st-img" src="" height="200" width="180">
+					<div>
+						<span class="item1-year"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container content-section">
+			<h2 class="section-header">Top Rated</h2>
+			<div class="pull-right">
+				<i class="fa fa-angle-left gray-arrow for-rate-left fa-2x"></i> 
+				<i class="fa fa-angle-right for-rate-right fa-2x"></i>
+			</div>
+			<div class="items">
+				<div class="item2">
+					<h4 class="item2-title"></h4>
+					<img class="item2-image st-img"  src="" height="200" width="180">
+
+					<div>
+						<span class="item2-year"></span>
+					</div>
+				</div>
+				<div  class="item2">
+					<h4 class="item2-title"></h4>
+					<img class="item2-image st-img" src="" height="200" width="180">
+					<div>
+						<span class="item2-year"></span>
+					</div>
+				</div>
+				<div  class="item2">
+					<h4 class="item2-title"></h4>
+					<img class="item2-image st-img" src="" height="200" width="180">
+					<div>
+						<span class="item2-year"></span>
+					</div>
+				</div>
+				<div  class="item2">
+					<h4 class="item2-title"></h4>
+					<img class="item2-image st-img" src="" height="200" width="180">
+					<div>
+						<span class="item2-year"></span>
+					</div>
+				</div>
+				<div  class="item2">
+					<h4 class="item2-title"></h4>
+					<img class="item2-image st-img" src="" height="200" width="180">
+					<div>
+						<span class="item2-year"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="film-container" class="hide">
+		<div class="inner-div">
+			<div class="img-div">
+				<img class="chose-film" src="" alt="pic">
+			</div>
+			<div class="info-div">
+				<h1 class="film-title"></h1>
+				<p class="film-gerne"></p>
+				<p class="film-year"></p>
+				<p class="film-runtime"></p>
+				<p class="film-country"></p>
+				<p class="film-language"></p>
+				<p class="film-rating"></p>
+				<p class="film-overview"></p>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="main-footer">
+		<div class="main-footer-container">
+		<h3>Follow Us On</h3>
+			<ul class="nav footer-nav">
+				<li>
+					<a href="https://facebook.com" target="_blank">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" height="25" width="25">
+					</a>
+				</li>
+			
+				<li>
+					<a href="https://youtube.com" target="_blank">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/YouTube_play_buttom_icon_%282013-2017%29.svg/800px-YouTube_play_buttom_icon_%282013-2017%29.svg.png" height="25" width="25">
+					</a>
+				</li>
+				<li>
+					<a href="https://instagram.com" target="_blank">
+						<img src="https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png" height="25" width="25">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="filmsLists.js"></script>
+	<script src="app.js"></script>
+	<script src="film.js"></script>
+</body>
+</html>
